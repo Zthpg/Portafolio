@@ -263,7 +263,7 @@ margin: 2rem auto;
   }
 
   /* Responsiveness */
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width:720px) {
     .presentation {
       height: 600px;
       flex-direction: column !important; /* Ensure elements stack vertically */
@@ -281,6 +281,9 @@ margin: 2rem auto;
       margin: 0; 
       position: static;
     }
+    .programing img{
+      width: 100%;
+    }
   
     .presentation .pa {
       margin-top: 99px;
@@ -288,8 +291,9 @@ margin: 2rem auto;
       
     } 
     .section {
-      height: 700px;
-      flex-direction: column !important; /* Ensure elements stack vertically */
+      height: 755px;
+      text-align: center;
+      flex-direction: column !important;
     }
     .txt-p{
       margin: auto;
@@ -301,8 +305,11 @@ margin: 2rem auto;
       width: 100%;
       height: auto;
       margin: 0;
-      margin-top: 340px; 
+      margin-top: 445px; 
       position: static;
+    }
+    .about img{
+      width: 100%;
     }
     .proyectos{
       flex-direction: column ;
@@ -328,15 +335,15 @@ margin: 2rem auto;
 
     .proyectos .cards{
       flex-direction: column !important;
-      max-width:  500px !important;
+      width:  auto !important;
       align-items: center !important;
+    }
+    .card{
+      width: 95% !important;
+
     }
   }
 
-  
-   
-
-  
   
 
   
