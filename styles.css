@@ -263,5 +263,80 @@ margin: 2rem auto;
   }
 
   /* Responsiveness */
+  @media screen and (max-width: 991px) {
+    .presentation {
+      height: 600px;
+      flex-direction: column !important; /* Ensure elements stack vertically */
+    }
+   
+    h1{
+      padding: 5px 0;
+
+    }
+  
+    .programing {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0; 
+      position: static;
+    }
+  
+    .presentation .pa {
+      margin-top: 99px;
+      padding: 10px 0; 
+      
+    } 
+    .section {
+      height: 700px;
+      flex-direction: column !important; /* Ensure elements stack vertically */
+    }
+    .txt-p{
+      margin: auto;
+      margin-top: 80px;
+      padding: 0px 60px;
+    }
+    .about{
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      margin-top: 340px; 
+      position: static;
+    }
+    .proyectos{
+      flex-direction: column ;
+    }
+
+    .text-contact{
+      flex-direction: column;
+    }
+    .socials{
+      justify-content: center;
+    }
+    .social a{
+      margin: 15px 0 0 8px ;
+    }
+    .contact{
+      padding: 30px;
+      flex-direction: column;
+      text-align: center;
+    }
+    .links h4{
+      margin: 25px 0px 10px 0px;
+    }
+
+    .proyectos .cards{
+      flex-direction: column !important;
+      max-width:  500px !important;
+      align-items: center !important;
+    }
+  }
+
+  
+   
+
+  
+  
 
   
